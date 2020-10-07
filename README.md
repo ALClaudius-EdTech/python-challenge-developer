@@ -1,6 +1,6 @@
 # Desafio ALClaudius EdTech - Desenvolvedor Python
 
-Seja bem-vindo ao nosso desafio técnico!
+Seja bem-vindo(a) ao nosso desafio técnico!
 
 Primeiramente agradecemos sua disponibilidade para o nosso desafio.
 Como parte do processo seletivo do [ALClaudius EdTech](https://alclaudius.com.br), gostaríamos que resolvesse um desafio técnico, sendo este utilizado como ferramenta para que tenhamos uma noção clara do seu nível de conhecimento, e quais pontos devem ser trabalhados e fortalecidos, em caso de continuidade ao processo de seleção.
@@ -64,11 +64,11 @@ Realize a modelagem de dados e a implementação do caso de uso proposto, do qua
 3. Interface gráfica para inserir um aluno.
 4. Interface gráfica para inserir um curso.
 5. Interface gráfica para realizar a matrícula do aluno em determinado curso.
-6. Exibição de relação de usuários matriculados em determinado curso.
+6. Exibição de relação de alunos matriculados em determinado curso.
 
 **Maiores detalhes de regras de negócio**
 
-1. Ao realizar o cadastro do aluno, verifique se o CPF já não existe na base, caso positivo exiba uma mensagem no formulário que o CPF já existe.
+1. Ao realizar o cadastro do aluno, verifique se o CPF já não existe na base, caso positivo exiba uma mensagem no formulário que o CPF já existe, o mesmo vale para o e-mail.
 2. Ao realizar o cadastro do curso, gera um slug com base no nome, não sendo possível inserir slug duplicado, ou seja, cada curso deve possuir um slug único.
 3. No processamento da matrícula devemos respeitar a regra que cada aluno é matriculado apenas uma vez em determinado curso, mas caso sua matrícula ativa seja cancelada, ele pode ser matriculado novamente no mesmo curso.
 
